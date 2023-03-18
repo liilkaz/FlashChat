@@ -53,6 +53,8 @@ class RegisterViewController: UIViewController {
                         errorMessage = "Необходимо указать адрес электронной почты."
                     case "The password must be 6 characters long or more.":
                         errorMessage = "Длина пароля должна составлять не менее 6 символов."
+                    case "The email address is already in use by another account.":
+                        errorMessage = "Адрес электронной почты уже используется другой учетной записью."
                     default:
                         errorMessage = "Проверьте введенные данные"
                     }
